@@ -1,0 +1,2360 @@
+/* Body */
+* {
+    margin: 0;
+}
+
+/* HEADER, HOME, ABOUT, STYLES, BUSINESS, REACH US, LOGO */
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #FFF8EA;
+}
+
+.header img {
+    width: 200px;
+    display: inline-block;
+    position: absolute;
+    left: 44%;
+    top: 0.5%;
+}
+
+/*--- HOME ---*/
+
+.home a {
+    text-decoration: none;
+    color: #222020;
+    font-family: 'Unbounded', cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 5%;
+    top: 4%;
+}
+
+.home a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #EF9A53;
+    display: block;
+    transition: 0.9s;
+}
+
+.home a:hover::after {
+    width: 100%;
+}
+
+/*--- ABOUT ---*/
+
+.about a {
+    text-decoration: none;
+    color: #222020;
+    font-family: 'Unbounded', cursive;
+    font-weight: 100;
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 15%;
+    top: 4%;
+}
+
+.about a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #EF9A53;
+    display: block;
+    transition: 0.9s;
+}
+
+.about a:hover::after {
+    width: 100%;
+}
+
+/*--- STYLE ---*/
+
+.style a {
+    text-decoration: none;
+    color: #222020;
+    font-family: 'Unbounded', cursive;
+    font-weight: 100;
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 30%;
+    top: 4%; 
+}
+
+.style a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #EF9A53;
+    display: block;
+    transition: 0.9s;
+}
+
+.style a:hover::after {
+    width: 100%;
+}
+
+/*--- Services ---*/
+
+.services a {
+    text-decoration: none;
+    color: #222020;
+    font-family: 'Unbounded', cursive;
+    font-weight: 100;
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 65%;
+    top: 4%; 
+}
+
+.services a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #EF9A53;
+    display: block;
+    transition: 0.9s;
+}
+
+.services a:hover::after {
+    width: 100%;
+}
+
+/*--- HOW TO REACH US ---*/
+
+.reach a {
+    text-decoration: none;
+    color: #FFF8EA;
+    font-family: 'Unbounded', cursive;
+    font-weight: 100;
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 78%;
+    top: 2.7%; 
+    border: 3px solid #E38B29;
+    padding: 0.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    border-radius: 4px;
+    background-color: #EF9A53;
+}
+
+.reach a:hover {
+    background-color: #E38B29;
+}
+
+/* --- TITLE TOP CONTAINER ---*/
+
+.top-container {
+    width: 60%;
+    height: 673px;
+    background-color: #FFF8EA;
+}
+
+/* IMAGE LEFT SIDE */
+.top-container img {
+    width: 600px;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+}
+
+#image-one {
+    width: 200px;
+    position: absolute;
+    left: 35%;
+    top: 40%;
+}
+
+/* TITLE "PITIKGRAPHY-Z" USING SPAN ELEMENT */
+.title {
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Unbounded', cursive;
+    color: #3c3a3a;
+    position: absolute;
+    left: 39%;
+    top: 13%;
+    line-height: 2;
+}
+
+/* TITLE "LORINDA AND JANE" USING SPAN */
+.title-one {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Unbounded', cursive;
+    color: #3c3a3a;
+    position: absolute;
+    left: 46%;
+    top: 24%;
+    display: inline-block;
+}
+
+/* COLOR NAME "LORINDA" USING SPAN ELEMENT */
+#color-name {
+    color: #CD9F95;
+}
+
+/* DIV ELEMENT - RIGHT SIDE */
+.top-container-right {
+    width: 40%;
+    height: 674px;
+    background-color: #FFF8EA;
+    position: absolute;
+    left: 60%;
+    bottom: 0;
+    display: inline-block;
+}
+
+/* IMAGE RIGHT SIDE */
+.top-container-right img {
+    width: 480px;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+
+#image-two {
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 54%;
+}
+
+/* PARAGRAPH TEXT UNDER TITLE*/
+#top-p {
+    font-size: 15px;
+    font-family: 'Unbounded', cursive;
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+    top: 140%;
+    line-height: 1.5;
+    text-align: justify;
+    padding-right: 10px;
+}
+
+#top-p2 {
+    font-size: 15px;
+    color: #000;
+    font-family: 'Unbounded', cursive;
+    display: inline-block;
+    position: absolute;
+    right: 110%;
+    top: 430%;
+    width: 80%;
+    line-height: 1.5;
+    text-align: justify;
+    padding-right: 10px;
+}
+
+
+/* about us new page */
+
+/* EXPLORE BUTTON  */
+.explore a {
+    text-decoration: none;
+    color: #FFF8EA;
+    font-family: 'Unbounded', cursive;
+    font-weight: 100;
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+    top: 450%;
+    border: 3px solid #E38B29;
+    padding: 0.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    border-radius: 4px;
+    background-color: #EF9A53;
+}
+
+.explore a:hover {
+    background-color: #E38B29;
+}
+
+/* bold-text */
+
+#home-boldnot {
+    text-decoration: none;
+    color: #222020;
+    font-family: 'Unbounded', cursive;
+    font-weight: 100;
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 5%;
+    top: 4%;
+}
+
+#about-bold {
+    text-decoration: none;
+    color: #222020;
+    font-family: 'Unbounded', cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 15%;
+    top: 4%;
+}
+
+#styles-bold {
+    text-decoration: none;
+    color: #222020;
+    font-family: 'Unbounded', cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 30%;
+    top: 4%; 
+}
+
+#service-bold {
+    text-decoration: none;
+    color: #222020;
+    font-family: 'Unbounded', cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 65%;
+    top: 4%; 
+}
+
+#reach-bold {
+    text-decoration: none;
+    color: #FFF8EA;
+    font-family: 'Unbounded', cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 78%;
+    top: 2.7%; 
+    border: 3px solid #E38B29;
+    padding: 0.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    border-radius: 4px;
+    background-color: #EF9A53;
+}
+
+/* styles */
+
+.styles-container {
+    background-color: #FFF8EA;
+    height: 673px;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    background-color: #bf9290d6;
+    width: 23.6%;
+    height: 80%;
+    left: 5%;
+    top: 10%;
+}
+
+.nose-img {
+    height: 100%;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    position: relative;
+}
+
+.nose-more {
+    transition: .5 ease;
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .nose-img {
+    opacity: 0.3;
+}
+
+.container:hover .nose-more {
+    opacity: 1;
+}
+
+.nose-text {
+    color: #000;
+    position: relative;
+    top: 150px;
+}
+
+.nose-text a {
+    font-size: 20px;
+    font-family: 'Unbounded', cursive;
+    color: #000;
+}
+
+.nose-title {
+    font-family: 'Unbounded', cursive;
+}
+
+.container-two {
+    background-color: rgba(218, 215, 203, 0.767);
+    position: relative;
+    width: 25%;
+    height: 80%;
+    left: 37.2%;
+    bottom: 70%;
+}
+
+.carry-img {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    position: relative;
+}
+
+.carry-more {
+    transition: .5 ease;
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container-two:hover .carry-img {
+    opacity: 0.3;
+}
+
+.container-two:hover .carry-more {
+    opacity: 1;
+}
+
+.carry-title {
+    font-family: 'Unbounded', cursive;
+}
+
+.carry-text {
+    color: #000;
+    font-size: 16px;
+    position: relative;
+    top: 150px;
+}
+
+.carry-text a {
+    font-size: 20px;
+    font-family: 'Unbounded', cursive;
+    color:#000
+}
+
+.container-three {
+    background-color: rgba(49, 48, 43, 0.767);
+    position: absolute;
+    width: 25%;
+    height: 71.5%;
+    left: 70%;
+    top: 20%;
+}
+
+.model-img {
+    height: 539px;
+    width: 100%;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    position: relative;
+}
+
+.model-more {
+    transition: .5 ease;
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container-three:hover .model-img {
+    opacity: 0.3;
+}
+
+.container-three:hover .model-more {
+    opacity: 1;
+}
+
+.model-title {
+    font-family: 'Unbounded', cursive;
+}
+
+.model-text {
+    color: #000;
+    font-size: 16px;
+    position: relative;
+    top: 150px;
+}
+
+.model-text a {
+    font-size: 20px;
+    font-family: 'Unbounded', cursive;
+    color:#000
+}
+
+/* ABOUT US PAGE */
+
+.about-page {
+    position: absolute;
+    background-color: #FFF8EA;
+    height: 673px;
+    width: 100%;
+}
+
+.off-img {
+    position: absolute;
+    height: 90%;
+    width: 55%;
+    left: 5%;
+    top: 7%;
+}
+
+.about-info {
+    position: absolute;
+    left: 73%;
+    top: 5%;
+    font-family: 'Unbounded', cursive;
+}
+
+#about-text {
+    position: absolute;
+    left: 62%;
+    top: 12%;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Unbounded', cursive;
+    text-align: justify;
+    width: 33%;
+    line-height: 2;
+}
+
+.about-members {
+    background-color: #FFF8EA;
+    position: absolute;
+    height: 500%;
+    width: 100%;
+    top: 99%;
+    display: inline-block;
+}
+
+.we-are {
+    position: absolute;
+    left: 44%;
+    top: 5%;
+    font-size: 30px;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.we-are::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #273d7b;
+    display: block;
+    transition: 0.9s;
+}
+
+.we-are:hover::after {
+    width: 100%;
+}
+
+.jane-background {
+    position: absolute;
+    background-color: rgba(170, 96, 67, 0.799);
+    width: 85%;
+    height: 600px;
+    left: 8%;
+    top: 10%;
+}
+
+.jane {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    left: 60%;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.jane-name {
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    font-size: 30px;
+    font-family: 'Unbounded', cursive;
+}
+
+#jane-text {
+    position: absolute;
+    left: 8%;
+    top: 20%;
+    font-size: 20px;
+    font-family: 'Unbounded', cursive;
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+}
+
+.jane-behind {
+    transition: .5 ease;
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.jane-background:hover .jane {
+    opacity: 0.3;
+}
+
+.jane-background:hover .jane-behind {
+    opacity: 1;
+}
+
+.jane-title {
+    font-family: 'Unbounded', cursive; 
+    position: absolute;
+    width: 448px;
+    display: inline-block;
+    left: 75%;
+    bottom: 330px;
+}
+
+.jane-success {
+    font-family: 'Unbounded', cursive;
+    line-height: 1.5;
+    letter-spacing: 0.25em;
+    display: inline-block;
+    position: relative;
+    width: 65%;
+    text-align: center;
+    left: 75%;
+    top: 20px;
+}
+
+.lorinda-background {
+    position: absolute;
+    background-color: rgba(47, 114, 28, 0.385);
+    width: 85%;
+    height: 600px;
+    left: 8%;
+    top: 30%;
+}
+
+.lorinda {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.lorinda-name {
+    position: absolute;
+    left: 60%;
+    top: 10%;
+    font-size: 30px;
+    font-family: 'Unbounded', cursive;
+}
+
+#lorinda-text {
+    position: absolute;
+    left: 46%;
+    top: 20%;
+    font-size: 20px;
+    font-family: 'Unbounded', cursive;
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+}
+
+.lorinda-behind {
+    transition: .5 ease;
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.lorinda-background:hover .lorinda {
+    opacity: 0.3;
+}
+
+.lorinda-background:hover .lorinda-behind {
+    opacity: 1;
+}
+
+.lorinda-title {
+    font-family: 'Unbounded', cursive; 
+    position: absolute;
+    width: 448px;
+    display: inline-block;
+    right: 75%;
+    bottom: 310px;
+}
+
+.lorinda-success {
+    font-family: 'Unbounded', cursive;
+    line-height: 1.5;
+    letter-spacing: 0.25em;
+    display: inline-block;
+    position: relative;
+    width: 65%;
+    text-align: center;
+    right: 43%;
+}
+
+.andrei-background {
+    position: absolute;
+    background-color: rgba(179, 161, 154, 0.799);
+    width: 85%;
+    height: 600px;
+    left: 8%;
+    top: 50%;
+}
+
+.andrei {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    left: 60%;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.andrei-name {
+    position: absolute;
+    left: 17%;
+    top: 10%;
+    font-size: 30px;
+    font-family: 'Unbounded', cursive;
+}
+
+#andrei-text {
+    position: absolute;
+    left: 8%;
+    top: 20%;
+    font-size: 20px;
+    font-family: 'Unbounded', cursive;
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+}
+
+.andrei-behind {
+    transition: .5 ease;
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.andrei-background:hover .andrei {
+    opacity: 0.3;
+}
+
+.andrei-background:hover .andrei-behind {
+    opacity: 1;
+}
+
+.andrei-title {
+    font-family: 'Unbounded', cursive; 
+    position: absolute;
+    width: 448px;
+    display: inline-block;
+    left: 75%;
+    bottom: 330px;
+}
+
+.andrei-success {
+    font-family: 'Unbounded', cursive;
+    line-height: 1.5;
+    letter-spacing: 0.25em;
+    display: inline-block;
+    position: relative;
+    width: 65%;
+    text-align: center;
+    left: 75%;
+    top: 20px;
+}
+
+.behind-success {
+    position: absolute;
+    height: 375px;
+    width: 100%;
+    top: 90%;   
+    background-color: rgb(86, 51, 51);
+}
+
+/* STYLES MORE PHOTOS */
+
+.portrait-more {
+    background-color: #FFF8EA;
+    width: 100%;
+    height: 650em;
+
+}
+
+.portrait-text a{
+    text-decoration: none; 
+    color: #000;
+}
+
+.portrait-text {
+    font-family: 'Unbounded', cursive;
+    letter-spacing: 2em;
+    display: inline-block;
+    position: absolute;
+    left: 29%;
+    top: 120%;
+} 
+
+#portblack {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 5%;
+    top: 140%;
+}
+
+#portblue {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 37.2%;
+    top: 140%;
+}
+
+#portbrown {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 70%;
+    top: 140%;
+}
+
+#portkid {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 5%;
+    top: 220%;
+}
+
+#portnose{
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 37.2%;
+    top: 220%;
+}
+
+#portpierce {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 70%;
+    top: 220%;
+}
+
+#portcat {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 5%;
+    top: 300%;
+}
+
+#portcat1{
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 37.2%;
+    top: 300%;
+}
+
+#portcat2 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 70%;
+    top: 300%;
+}
+
+/* WEDDING MORE PHOTOS */
+
+.wedding-text a{
+    text-decoration: none; 
+    color: #000;
+}
+
+.wedding-text {
+    font-family: 'Unbounded', cursive;
+    letter-spacing: 2em;
+    display: inline-block;
+    position: absolute;
+    left: 31%;
+    top: 400%;
+}
+
+#weddbading {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 5%;
+    top: 420%;
+}
+
+#weddcake{
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 37.2%;
+    top: 420%;
+}
+
+#weddcandles {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 70%;
+    top: 420%;
+} 
+
+#weddshoes {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 5%;
+    top: 500%;
+}
+
+#weddflower{
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 37.2%;
+    top: 500%;
+}
+
+#weddinvite {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 70%;
+    top: 500%;
+} 
+
+#wedd1 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 5%;
+    top: 580%;
+}
+
+#wedd2{
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 37.2%;
+    top: 580%;
+}
+
+#wedd3 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 70%;
+    top: 580%;
+} 
+
+/* MATERNITY MORE */
+
+.maternity-text a{
+    text-decoration: none; 
+    color: #000;
+}
+
+.maternity-text {
+    font-family: 'Unbounded', cursive;
+    letter-spacing: 2em;
+    display: inline-block;
+    position: absolute;
+    left: 25%;
+    top: 680%;
+}
+
+#maternity01 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 5%;
+    top: 700%;
+}
+
+#maternity02{
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 37.2%;
+    top: 700%;
+}
+
+#maternity03 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 70%;
+    top: 700%;
+} 
+
+#maternity04 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 5%;
+    top: 780%;
+}
+
+#maternity05 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 37.2%;
+    top: 780%;
+}
+
+#maternity06 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 70%;
+    top: 780%;
+} 
+
+#maternity07 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 5%;
+    top: 860%;
+}
+
+#maternity08 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 37.2%;
+    top: 860%;
+}
+
+#maternity09 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 70%;
+    top: 860%;
+} 
+
+.prenup-kiddie-text {
+    font-family: 'Unbounded', cursive;
+    letter-spacing: 1em;
+    display: inline-block;
+    position: absolute;
+    left: 15%;
+    top: 960%;
+}
+
+.prenup-kiddie-text a {
+    color: #000;
+    text-decoration: none;
+}
+
+#prenup1 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 5%;
+    top: 980%;
+}
+
+#prenup2 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 37.2%;
+    top: 980%;
+}
+
+#prenup3 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 70%;
+    top: 980%;
+}
+
+#kid1 { 
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 5%;
+    top: 499em; 
+}
+
+#kid2 { 
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 37.2%;
+    top: 499em; 
+}
+
+#kid3 { 
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 70%;
+    top: 499em; 
+}
+
+#prenup4 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 5%;
+    top: 537em;
+}
+
+#prenup5 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 37.2%;
+    top: 537em;
+}
+
+#prenup6 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 70%;
+    top: 537em;
+}
+
+#kid4 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 5%;
+    top: 575em;
+}
+
+#kid5 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 37.2%;
+    top: 575em;
+}
+
+#kid6 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 70%;
+    top: 575em;
+}
+
+#prenup7 {
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    display: inline-block;
+    left: 3%;
+    top: 613em;
+}
+
+#prenup8 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 37.3%;
+    top: 613em;
+}
+
+#prenup9 {
+    width: 32%;
+    height: 40%;
+    position: absolute;
+    display: inline-block;
+    left: 65%;
+    top: 613em;
+}
+
+#kid7 {
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    display: inline-block;
+    left: 3%;
+    top: 637em;
+}
+
+#kid8 {
+    width: 23.5%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 37.3%;
+    top: 650em;
+}
+
+#kid9 {
+    width: 32%;
+    height: 40%;
+    position: absolute;
+    display: inline-block;
+    left: 65%;
+    top: 637em;
+}
+
+#prenup10 {
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    display: inline-block;
+    left: 3%;
+    top: 661em;
+}
+
+#prenup11 {
+    width: 32%;
+    height: 40%;
+    position: absolute;
+    display: inline-block;
+    left: 65%;
+    top: 661em;
+}
+
+.scroll-text a{
+    color: #000;
+}
+
+.scroll-text {
+    font-family: 'Unbounded', cursive;
+    display: inline-block;
+    position: absolute;
+    font-size: 30px;
+    left: 41%;
+    top: 370em;
+}   
+
+.faq-title {
+    background-color: #C7BCA1;
+    width: 100%;
+    height: 82%;
+    position: absolute;
+    top: 450%;
+}
+
+.faq {
+    font-family: 'Unbounded', cursive;
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    letter-spacing: 0.2em;
+}
+
+.faq1 {
+    background-color: #C7BCA1;
+    width: 30%;
+    height: 70%;
+    position: absolute;
+    top: 20%;
+    left: 1%;
+}
+
+.faq1-title { 
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+}
+
+#faq1-text {
+    font-family: 'Unbounded', cursive;
+    font-size: 12px;
+    position: absolute;
+    left: 2%;
+    top: 10%;
+
+}
+
+.faq2-title { 
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 2%;
+    top: 29%;
+}
+
+#faq2-text {
+    font-family: 'Unbounded', cursive;
+    font-size: 12px;
+    position: absolute;
+    left: 2%;
+    top: 37%;
+
+}
+
+.faq3-title { 
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 2%;
+    top: 69%;
+}
+
+#faq3-text {
+    font-family: 'Unbounded', cursive;
+    font-size: 12px;
+    position: absolute;
+    left: 2%;
+    top: 77%;
+
+}
+
+.faq2 {
+    background-color: #C7BCA1;
+    width: 30%;
+    height: 70%;
+    position: absolute;
+    top: 20%;
+    left: 34.5%;
+} 
+
+.faq4-title { 
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+}
+
+#faq4-text {
+    font-family: 'Unbounded', cursive;
+    font-size: 12px;
+    position: absolute;
+    left: 2%;
+    top: 10%;
+}
+
+.faq5-title { 
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 2%;
+    top: 29%;
+}
+
+#faq5-text {
+    font-family: 'Unbounded', cursive;
+    font-size: 12px;
+    position: absolute;
+    left: 2%;
+    top: 37%;
+
+}
+
+.faq6-title { 
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 2%;
+    top: 75%;
+}
+
+#faq6-text {
+    font-family: 'Unbounded', cursive;
+    font-size: 12px;
+    position: absolute;
+    left: 2%;
+    top: 88%;
+}
+
+.faq6-text a{ 
+    color: #000;
+}
+
+.faq3 {
+    background-color: #C7BCA1;
+    width: 30%;
+    height: 70%;
+    position: absolute;
+    top: 20%;
+    right: 2%;
+} 
+
+.faq7-title { 
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+}
+
+#faq7-text {
+    font-family: 'Unbounded', cursive;
+    font-size: 12px;
+    position: absolute;
+    left: 2%;
+    top: 15%;
+}
+
+.faq8-title { 
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 2%;
+    top: 35%;
+}
+
+#faq8-text {
+    font-family: 'Unbounded', cursive;
+    font-size: 12px;
+    position: absolute;
+    left: 2%;
+    top: 43%;
+}
+
+.for-more {
+    font-family: 'Unbounded', cursive;
+    font-size: 12px;
+    position: absolute;
+    left: 2%;
+    top: 70%;
+    width: 50%;
+}
+
+/* SERVICES PAGE */
+
+#footer {
+    position: absolute;
+    width: 100%;
+    background-color: #D0B8A8;
+    height: 33em;
+    z-index: 1;
+    top: 250em;
+}
+
+.footer-head {
+    width: 100%;
+    height: 16.5em;
+    background-color: #DFD3C3;
+}
+
+.limited-promo {
+    font-size: 35px;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    position: absolute;
+    left: 10%;
+    top: 80px;
+}
+
+.limited-text {
+    font-size: 20px;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    position: absolute;
+    left: 10%;
+    top: 150px;
+    letter-spacing: 3px;
+}
+
+.limited-button {
+    background-color: #E5E5CB;
+    padding: 25px 30px;
+    font-size: 20px;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    border-radius: 5px;
+    position: absolute;
+    right: 14%;
+    top: 120px;
+    box-shadow: 0 0 20px #FFF9B0;
+}
+
+.limited-button a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-brand {
+    font-size: 20px;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    position: absolute;
+    right: 10%;
+    top: 300px;
+    display: inline-block;
+}
+
+.footer-brand-text {
+    font-size: 13px;
+    font-family: 'Unbounded', cursive;
+    position: absolute;
+    right: 10%;
+    top: 350px;
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+}
+
+.call {
+    font-size: 26px;
+    position: absolute;
+    right: 10%;
+    top: 450px;
+    color: #000;
+}
+
+.twitter {
+    font-size: 26px;
+    position: absolute;
+    right: 13%;
+    top: 450px;
+    color: #000;
+}
+
+.instagram {
+    font-size: 26px;
+    position: absolute;
+    right: 16%;
+    top: 450px;
+    color: #000;
+}
+
+.facebook {
+    font-size: 26px;
+    position: absolute;
+    right: 19%;
+    top: 450px;
+    color: #000;
+}
+
+.subscribe {
+    font-size: 20px;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    position: absolute;
+    left: 10%;
+    top: 300px;
+    display: inline-block;
+}
+
+.three-names {
+    font-size: 13px;
+    font-family: 'Unbounded', cursive;
+    position: absolute;
+    left: 10%;
+    top: 350px;
+    display: inline-block;
+    width: 20%;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+.project {
+    font-size: 20px;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    position: absolute;
+    left: 43%;
+    top: 300px;
+    display: inline-block;
+}
+
+.proj1 img{
+    width: 70px;
+    position: absolute;
+    left: 40%;
+    top: 350px;
+    display: inline-block;
+}
+
+.proj2 img{
+    width: 70px;
+    position: absolute;
+    left: 48%;
+    top: 350px;
+    display: inline-block;
+}
+
+.proj3 img{
+    width: 70px;
+    position: absolute;
+    left: 56%;
+    top: 350px;
+    display: inline-block;
+}
+
+.offer-services {
+    background-color: #FFF8EA;
+    height: 60em;
+    width: 100%;
+}
+
+.offer-wedding {
+    width: 60px;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    display: inline-block
+}
+
+.offer-wedding-text {
+    width: 20%;
+    position: absolute;
+    left: 23%;
+    top: 32%;
+    display: inline-block;
+    font-family: 'Unbounded', cursive;
+    font-size: 14px;
+}
+
+.offer-wedding-title {
+    width: 10%;
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    display: inline-block;
+    font-family: 'Unbounded', cursive;
+    font-size: 20px;
+}
+
+.offer-portrait {
+    width: 60px;
+    position: absolute;
+    left: 30%;
+    top: 75%;
+    display: inline-block;
+}
+
+.offer-portrait-title {
+    width: 15%;
+    position: absolute;
+    left: 28%;
+    top: 69%;
+    display: inline-block;
+    font-family: 'Unbounded', cursive;
+    font-size: 20px;
+    text-align: right;
+}
+
+.offer-portrait-text {
+    width: 20%;
+    position: absolute;
+    left: 10%;
+    top: 77%;
+    display: inline-block;
+    font-family: 'Unbounded', cursive;
+    font-size: 14px;
+    text-align: right;
+}
+
+.offer-maternity {
+    width: 60px;
+    position: absolute;
+    right: 20%;
+    top: 32%;
+    display: inline-block;
+}
+
+.offer-maternity-title {
+    width: 15%;
+    position: absolute;
+    right: 10%;
+    top: 25%;
+    display: inline-block;
+    font-family: 'Unbounded', cursive;
+    font-size: 20px;
+    text-align: right;
+}
+
+.offer-maternity-text {
+    width: 20%;
+    position: absolute;
+    right: 24%;
+    top: 32%;
+    display: inline-block;
+    font-family: 'Unbounded', cursive;
+    font-size: 14px;
+    text-align: right;
+}
+
+.offer-birthday {
+    position: absolute;
+    width: 60px;
+    right: 18%;
+    top: 75%;
+    display: inline-block;
+}
+
+.offer-birthday-title {
+    width: 15%;
+    position: absolute;
+    right: 10%;
+    top: 69%;
+    display: inline-block;
+    font-family: 'Unbounded', cursive;
+    font-size: 20px;
+    text-align: right;
+}
+
+.offer-birthday-text {
+    width: 20%;
+    position: absolute;
+    right: 24%;
+    top: 77%;
+    display: inline-block;
+    font-family: 'Unbounded', cursive;
+    font-size: 14px;
+    text-align: right;
+}
+
+.icon-button {
+    background-color: #C7BCA1;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    border-radius: 5px;
+    position: absolute;
+    left: 10%;
+    top: 65%;
+}
+
+.icon-button a {
+    text-decoration: none;
+    color: #000;
+}
+
+.we-do {
+    font-family: 'Unbounded', cursive;
+    font-size: 30px;
+    position: absolute;
+    left: 46%;
+    top: 20%;
+}
+
+.footer-service {
+    background-color: #C7BCA1;
+    height: 13em;
+    width: 100%;
+    position: absolute;
+    top: 52em;
+}
+
+.footer-service-title {
+    font-family: 'Unbounded', cursive;
+    font-size: 20px;
+    position: absolute;
+    left: 2%;
+    top: 10%;
+}
+
+#footer-service-text {
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 2%;
+    top: 30%;
+    width: 20%;
+}
+
+.mail {
+    font-size: 30px;
+    color: #000;
+    position: absolute;
+    top: 65%;
+    left: 2%;
+}
+
+.open-hours {
+    font-family: 'Unbounded', cursive;
+    font-size: 20px;
+    position: absolute;
+    left: 30%;
+    top: 12%;
+}
+
+.mondays {
+    font-family: 'Unbounded', cursive;
+    font-size: 16px;
+    position: absolute;
+    left: 30%;
+    top: 37%;
+}
+
+.tuesdays {
+    font-family: 'Unbounded', cursive;
+    font-size: 16px;
+    position: absolute;
+    left: 30%;
+    top: 57%;
+}
+
+.wednesdays {
+    font-family: 'Unbounded', cursive;
+    font-size: 16px;
+    position: absolute;
+    left: 30%;
+    top: 77%;
+}
+
+.thursdays {
+    font-family: 'Unbounded', cursive;
+    font-size: 16px;
+    position: absolute;
+    left: 60%;
+    top: 37%;
+}
+
+.fridays {
+    font-family: 'Unbounded', cursive;
+    font-size: 16px;
+    position: absolute;
+    left: 60%;
+    top: 57%;
+}
+
+.saturdays {
+    font-family: 'Unbounded', cursive;
+    font-size: 16px;
+    position: absolute;
+    left: 60%;
+    top: 77%;
+}
+
+
+
+/* REACH US PAGE! */
+
+
+.container-reach-us {
+    background-color: #FFF8EA;
+    height: 55em;
+    width: 100%;
+}
+
+.container-contact {
+    background-color: #F4EAD5;
+    height: 100%;
+    width: 70%;
+    position: absolute;
+    left: 2%;
+    top: 20%;
+}
+
+.info-page {
+    font-size: 30px;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    position: absolute;
+    left: 2%;
+    top: 5%;
+}
+
+#info-chat {
+    font-size: 15px;
+    font-family: 'Unbounded', cursive;
+    position: absolute;
+    left: 2%;
+    top: 12%;
+    width: 28%;
+}
+
+.address-title {
+    font-size: 15px;
+    font-family: 'Unbounded', cursive;
+    position: absolute;
+    left: 2%;
+    top: 20%;
+}
+
+#address-info {
+    font-size: 13px;
+    font-family: 'Unbounded', cursive;
+    position: absolute;
+    left: 2%;
+    top: 25%;
+    width: 15%;
+}
+
+.email-title {
+    font-size: 15px;
+    font-family: 'Unbounded', cursive;
+    position: absolute;
+    left: 18%;
+    top: 20%;
+}
+
+#email-info {
+    font-size: 13px;
+    font-family: 'Unbounded', cursive;
+    position: absolute;
+    left: 18%;
+    top: 25%;
+    width: 5%;
+}
+
+.contact-title {
+    font-size: 15px;
+    font-family: 'Unbounded', cursive;
+    position: absolute;
+    left: 32%;
+    top: 20%;
+}
+
+#contact-info {
+    font-size: 13px;
+    font-family: 'Unbounded', cursive;
+    position: absolute;
+    left: 32%;
+    top: 25%;
+    width: 15%;
+}
+
+.first {
+    font-size: 15px;
+    font-family: 'Unbounded', cursive;
+    position: absolute; 
+    left: 2%;
+    top: 40%;
+}
+
+#fname {
+    background-color: #F4EAD5;
+    width: 15%;
+    position: absolute; 
+    left: 15%;
+    top: 40%;
+}
+
+.last {
+    font-size: 15px;
+    font-family: 'Unbounded', cursive;
+    position: absolute; 
+    left: 2%;
+    top: 45%;
+}
+
+#lname {
+    background-color: #F4EAD5;
+    width: 15%;
+    position: absolute; 
+    left: 15%;
+    top: 45%;
+}
+
+.email {
+    font-size: 15px;
+    font-family: 'Unbounded', cursive;
+    position: absolute; 
+    left: 2%;
+    top: 50%;
+}
+
+#email {
+    background-color: #F4EAD5;
+    width: 15%;
+    position: absolute; 
+    left: 15%;
+    top: 50%;
+}
+
+.message {
+    font-size: 15px;
+    font-family: 'Unbounded', cursive;
+    position: absolute; 
+    left: 2%;
+    top: 55%;
+}
+
+#message {
+    background-color: #F4EAD5;
+    width: 30%;
+    height: 20%;
+    position: absolute; 
+    left: 15%;
+    top: 55%;
+}
+
+.submit-button {
+    background-color: #F4EAD5;
+    font-size: 15px;
+    font-family: 'Unbounded', cursive;
+    position: absolute;
+    left: 5%;
+    top: 80%;
+    width: 40%;
+}
+
+.know-more {
+    background-color: #8B7E74;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.follow-us {
+    background-color: #F1D3B3;
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 70%;
+}
+
+.follow-us-title {
+    font-size: 20px;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    position: absolute;
+    left: 12%;
+    top: 5%;
+}
+
+.facebook-social {
+    color: #000;
+    font-size: 30px;
+    position: absolute;
+    left: 15%;
+    top: 35%;
+}
+
+.instagram-social {
+    color: #000;
+    font-size: 30px;
+    position: absolute;
+    left: 37%;
+    top: 35%;
+}
+
+.twitter-social {
+    color: #000;
+    font-size: 30px;
+    position: absolute;
+    top: 35%;
+    right: 37%;
+}
+
+.home-social {
+    color: #000;
+    font-size: 25px;
+    position: absolute;
+    right: 15%;
+    top: 35%;
+}
+ 
+.pitik-footer {
+    font-size: 10px;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    position: absolute;
+    left: 25%;
+    top: 80%;
+    letter-spacing: 2px;
+}
+
+.navigation {
+    background-color: #F1D3B3;
+    height: 100%;
+    width: 25%;
+    position: absolute;
+    top: 20%;
+    right: 2%;
+}
+
+.navi {
+    font-family: 'Unbounded', cursive;
+    font-size: 30px;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+.navi-home {
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    color: #000;
+}
+
+.navi-about {
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    color: #000;
+}
+
+.navi-styles {
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    color: #000;
+}
+
+.navi-services {
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    color: #000;
+}
+
+.navi-faq {
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 5%;
+    top: 35%;
+    color: #000;
+}
+
+.navi-portrait {
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 40%;
+    top: 35%;
+    color: #000;
+}
+
+.navi-wedd {
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    color: #000;
+}
+
+.navi-maternity {
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    color: #000;
+}
+
+.navi-prekid {
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    color: #000;
+}
+
+.navi-jane {
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    color: #000;
+}
+
+.navi-lorinda {
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    color: #000;
+}
+
+.navi-andrei {
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    color: #000;
+}
+
+.navi-office {
+    font-family: 'Unbounded', cursive;
+    font-size: 15px;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    color: #000;
+}
+
+.promo {
+    font-size: 30px;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    position: absolute;
+    left: 34%;
+    top: 5%;
+}
+
+.standard {
+    font-family: 'Unbounded', cursive;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    letter-spacing: 0.2em;
+}
+
+.standard-text li {
+    position: relative;
+    top: 160px;
+    left: 10%;
+    font-family: 'Unbounded', cursive;
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+    font-size: 13px;
+}
+
+.extend {
+    font-family: 'Unbounded', cursive;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    letter-spacing: 0.2em;
+}
+
+.extend-text li {
+    position: relative;
+    top: 230px;
+    left: 10%;
+    font-family: 'Unbounded', cursive;
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+    font-size: 13px;
+}
+
+.ulti {
+    font-family: 'Unbounded', cursive;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    letter-spacing: 0.2em;
+}
+
+.ulti-text li {
+    position: relative;
+    top: 305px;
+    left: 10%;
+    font-family: 'Unbounded', cursive;
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+    font-size: 13px;
+}  
